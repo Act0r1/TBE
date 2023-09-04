@@ -7,3 +7,5 @@ edition = "2021"
 
 [dependencies]
 libp2p = { version = "0.52.3", features = ["tcp", "dns", "async-std", "noise", "yamux", "websocket", "ping", "macros"] }
+
+base58 = {version = "0.2.0"}
